@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack serve --config webpack.config"
   },
   "author": "Prisecaru Bogdan & Bucan Dragos",
   "license": "ISC",
   "dependencies": {
     "@angular/common": "^11.2.6",
+    "@angular/compiler": "^11.2.8",
     "@angular/core": "^11.2.6",
     "@angular/forms": "^11.2.6",
     "@angular/platform-browser": "^11.2.6",
@@ -21,7 +23,11 @@
   "devDependencies": {
     "@angular/cli": "^11.2.5",
     "@angular/compiler-cli": "^11.2.6",
+    "html-loader": "^2.1.2",
+    "ts-loader": "^8.1.0",
     "typescript": "^4.2.3",
-    "webpack": "^5.27.2"
+    "webpack": "^5.27.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }
