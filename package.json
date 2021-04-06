@@ -1,0 +1,27 @@
+{
+  "name": "bucaniada",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prisecaru Bogdan & Bucan Dragos",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^11.2.6",
+    "@angular/core": "^11.2.6",
+    "@angular/forms": "^11.2.6",
+    "@angular/platform-browser": "^11.2.6",
+    "@angular/platform-browser-dynamic": "^11.2.6",
+    "@angular/router": "^11.2.6",
+    "rxjs": "^6.6.6",
+    "zone.js": "^0.11.4"
+  },
+  "devDependencies": {
+    "@angular/cli": "^11.2.5",
+    "@angular/compiler-cli": "^11.2.6",
+    "typescript": "^4.2.3",
+    "webpack": "^5.27.2"
+  }
+}
