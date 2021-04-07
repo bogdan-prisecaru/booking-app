@@ -1,25 +1,25 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
     "baseUrl": "src",
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "module": "esnext",
+    "moduleResolution": "node",
     "paths": {
       "@angular/*": ["../node_modules/@angular/*"],
-      "rxjs/*": ["../node_modules/rxjs/*"],
       "@common/*": ["app/common/*"],
       "@core/*": ["app/core/*"],
       "@models/*": ["app/models/*"],
       "@modules/*": ["app/modules/*"],
-      "@ui/*": ["app/ui/*"]
+      "@ui/*": ["app/ui/*"],
+      "rxjs/*": ["../node_modules/rxjs/*"]
     },
-    "sourceMap": true,
-    "declaration": false,
-    "downlevelIteration": true,
-    "experimentalDecorators": true,
     "resolveJsonModule": true,
-    "allowSyntheticDefaultImports": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "importHelpers": true,
+    "sourceMap": true,
     "target": "es2015"
   }
 }
